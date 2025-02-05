@@ -4,6 +4,16 @@
         "@babel/preset-env",
         {
           "targets": {
+<<<<<<< HEAD
+            "node": "22"
+          },
+          "useBuiltIns": "usage",
+          "corejs": "3.6.5"
+        }
+      ]
+    ]
+  }
+=======
             "edge": "17",
             "firefox": "60",
             "chrome": "67",
@@ -13,3 +23,4 @@
       ]
     ]
   }
+>>>>>>> 08e579de2a32e697cc60b7e6fce93895c1ebb4e3
