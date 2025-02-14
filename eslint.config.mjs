@@ -9,7 +9,7 @@ export default [
   eslintPluginPrettierRecommended,
   // DOC: https://www.npmjs.com/package/eslint-plugin-jest
   {
-    files: ['test/**'],
+    files: ['test/**', 'spec/**'],
     ...jest.configs['flat/recommended']
   }
 ]
