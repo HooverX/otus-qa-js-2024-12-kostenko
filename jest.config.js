@@ -5,6 +5,8 @@
 
 /** @type {import('jest').Config} */
 const config = {
+  testEnvironment: 'node',
+  testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
