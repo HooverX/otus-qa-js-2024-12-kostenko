@@ -109,7 +109,7 @@ const config = {
   // projects: undefined,
 
   // Use this configuration option to add custom reporters to Jest
-  reporters: [['github-actions', { silent: false }], 'summary']
+  reporters: [['github-actions', { silent: false }], 'summary'],
 
   // Automatically reset mock state before every test
   // resetMocks: false,
@@ -135,7 +135,7 @@ const config = {
   // runner: "jest-runner",
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
-  // setupFiles: [],
+    setupFiles: ['dotenv/config']
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
