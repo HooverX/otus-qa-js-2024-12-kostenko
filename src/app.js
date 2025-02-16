@@ -17,3 +17,8 @@ const scores = {
 const totalScore = getScore(scores)
 
 console.log(totalScore)
+    
+ 
+  
+
+  
