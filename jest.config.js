@@ -7,6 +7,8 @@
 const config = {
   testEnvironment: 'node',
   testMatch: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+
+  transformIgnorePatterns: ['/node_modules/(?!got)/'],
   // All imported modules in your tests should be mocked automatically
   // automock: false,
 
@@ -135,7 +137,7 @@ const config = {
   // runner: "jest-runner",
 
   // The paths to modules that run some code to configure or set up the testing environment before each test
-    setupFiles: ['dotenv/config']
+  setupFiles: ['dotenv/config']
 
   // A list of paths to modules that run some code to configure or set up the testing framework before each test
   // setupFilesAfterEnv: [],
