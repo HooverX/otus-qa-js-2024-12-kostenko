@@ -7,7 +7,8 @@
     "start": "babel-node src/main.js",
     "lint:ci": "eslint .",
     "lint": "eslint . --fix",
-    "test": "jest specs/api.spec.js"
+    "test": "jest",
+    "test:spec": "jest /test/dummy/usertest.js"
   },
   "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
@@ -19,10 +20,7 @@
     "@babel/preset-env": "^7.25.8",
     "@eslint/js": "^9.12.0",
     "@types/jest": "^29.5.13",
-<<<<<<< HEAD
     "cross-env": "^7.0.3",
-=======
->>>>>>> e9674617a307eebad76b720f9eb405d12c932453
     "eslint": "^9.12.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-plugin-jest": "^28.11.0",
@@ -33,10 +31,8 @@
     "prettier": "^3.3.3"
   },
   "dependencies": {
-<<<<<<< HEAD
     "dotenv": "^16.4.7",
-=======
->>>>>>> e9674617a307eebad76b720f9eb405d12c932453
+    "got": "^14.4.6",
     "node-fetch": "^3.3.2"
   }
 }
