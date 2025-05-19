@@ -1,4 +1,4 @@
-const { I } = inject();
+const { I } = inject()
 
 module.exports = {
   elements: {
@@ -9,12 +9,12 @@ module.exports = {
   },
 
   login(username, password) {
-    I.fillField(this.elements.usernameField, username);
-    I.fillField(this.elements.passwordField, password);
-    I.click(this.elements.loginButton);
+    I.fillField(this.elements.usernameField, username)
+    I.fillField(this.elements.passwordField, password)
+    I.click(this.elements.loginButton)
   },
 
   verifyErrorMessage(text) {
-    I.see(text, this.elements.errorMessage);
+    I.see(text, this.elements.errorMessage)
   }
 }

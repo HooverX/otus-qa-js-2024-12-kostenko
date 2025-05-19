@@ -3,3 +3,7 @@ node_modules/
 .DS_Store
 dist/
 *.log
+example.spec.ts
+test/examples/
+output/
+*.png

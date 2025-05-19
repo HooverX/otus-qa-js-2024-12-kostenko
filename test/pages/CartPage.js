@@ -8,14 +8,14 @@ module.exports = {
   },
 
   verifyItemInCart(itemName) {
-    I.see(itemName, '.inventory_item_name');
+    I.see(itemName, '.inventory_item_name')
   },
 
   removeItem(itemName) {
-    I.click(`//div[text()="${itemName}"]/ancestor::div[@class="cart_item"]//button`);
+    I.click(`//div[text()="${itemName}"]/ancestor::div[@class="cart_item"]//button`)
   },
 
   proceedToCheckout() {
-    I.click(this.elements.checkoutButton);
+    I.click(this.elements.checkoutButton)
   }
 }
